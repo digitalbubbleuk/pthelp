@@ -2,7 +2,7 @@
   "routes": [
     {
       "path": "/",
-      "page": "index",
+      "page": "content/home",
       "routeType": "page",
       "layout": "main"
     },
