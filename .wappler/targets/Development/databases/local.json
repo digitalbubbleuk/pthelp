@@ -1,0 +1,31 @@
+{
+  "type": "mysql",
+  "connection": {
+    "host": "127.0.0.1",
+    "user": "root",
+    "password": "root",
+    "database": "test"
+  },
+  "direct": true,
+  "schema": {
+    "tables": {
+      "user": {
+        "db": {
+          "engine": "InnoDB",
+          "schema": "test",
+          "collation": "utf8mb4_0900_ai_ci"
+        },
+        "columns": {
+          "id": {
+            "db": {
+              "type": "increments",
+              "primary": true,
+              "nullable": false
+            }
+          }
+        }
+      }
+    },
+    "views": {}
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "projectServerModel": "node",
+  "projectName": "Test",
+  "firebaseProjectID": "",
+  "herokuProjectID": "",
+  "gitURL": "",
+  "webRootFolder": "/public",
+  "useRouting": true,
+  "addBase": true,
+  "routingHandler": "node",
+  "targets": [
+    {
+      "name": "Development",
+      "remoteURL": "http://localhost:3000/",
+      "access": "local",
+      "localFolder": "file:///home/paul/Documents/wapplerprojects/test"
+    }
+  ],
+  "activeTarget": "Development",
+  "projectType": "web",
+  "npmInstall": true
+}
